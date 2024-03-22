@@ -1,0 +1,138 @@
+/* CSS Document */
+
+/*CSS RESET*/
+
+body, nav, header, main, footer, h1, div, img, ul, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*BODY*/
+
+h1 {
+	color: #fff;
+	-webkit-text-stroke: .2px black;
+	text-align: center;
+}
+
+h2 {
+	color: #fff;
+	-webkit-text-stroke: .2px black;
+	text-align: center;
+}
+
+p {
+	color: #000;
+}
+
+main {
+	padding: 2em;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'EB Garamond';
+}
+
+/*NAV*/
+
+nav {
+	background: rgb(200,178,210);
+	background: linear-gradient(175deg, rgba(200,178,210,1) 0%, rgba(19,3,29,1) 100%);
+}
+
+nav a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0 2em;
+}
+
+a:hover {
+	color: #000;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+/*FORM*/
+
+blockquote {
+	font-size: 3em;
+	color: #fff;
+	-webkit-text-stroke: .2px red;
+	text-align: center;
+}
+
+form img {
+	max-width: 100%;
+	padding: 2em 0;
+}
+
+input {
+	height: 2em;
+	width: 10em;
+	background-color: #8A70A0;
+	color: #000;
+	border: 2px solid #FFFFFF;
+}
+
+.frmButton {
+	width: 10em;
+	background-color: #000;
+	color: #fff;
+}
+
+.frmButton:hover {
+	background-color:#C6A1E6 ;
+}
+
+#container p {
+	text-align: center;
+}
+
+label {
+	color:#000;
+}
+
+/*IMGS*/
+
+img {
+	border: solid #8a70a0 1em;
+}
+
+/*Footer*/
+
+footer {
+	background: rgb(200,178,210);
+	background: linear-gradient(175deg, rgba(200,178,210,1) 0%, rgba(19,3,29,1) 100%);
+	padding: 2em;
+}
+
+footer p {
+	text-align: center;
+	font-size: 1em;
+}
+
+.footerNav a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerNav a:hover {
+	color: #000;
+}
